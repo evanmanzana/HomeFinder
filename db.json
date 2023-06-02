@@ -1,0 +1,144 @@
+{
+  "rentals": [
+    {
+      "id": 1,
+      "image": "https://photos.zillowstatic.com/fp/afe50045572d98c14fd4bdae23767d3a-cc_ft_1536.webp",
+      "address": "5824 Beeler Court, Denver, CO 80238",
+      "price": "$789,000",
+      "listing-agent": "Mark Jacobsma"
+    },
+    {
+      "id": 2,
+      "image": "https://photos.zillowstatic.com/fp/69722fea94ed61c63a9c5e625de43dcd-cc_ft_1536.webp",
+      "address": "4974 Akron Street, Denver, CO 80238",
+      "price": "$775,000",
+      "listing-agent": "Simon Foster"
+    },
+    {
+      "id": 3,
+      "image": "https://photos.zillowstatic.com/fp/f97eb3c29422510a214418a8d8c33aa7-cc_ft_1536.webp",
+      "address": "4600 S Everett Street, Denver, CO 80123",
+      "price": "$549,900",
+      "listing-agent": "Amanda Maxwell"
+    },
+    {
+      "id": 4,
+      "image": "https://photos.zillowstatic.com/fp/9fa9d34ce3bc4f0711ce57f6b22ee603-cc_ft_384.webp",
+      "address": "640 Clayton Street, Denver, CO 80206",
+      "price": "$1,649,000",
+      "listing-agent": "The Hoholik Team"
+    },
+    {
+      "id": 5,
+      "image": "",
+      "address": "",
+      "price": "",
+      "listing-agent": ""
+    },
+    {
+      "id": 6,
+      "image": "",
+      "address": "",
+      "price": "",
+      "listing-agent": ""
+    },
+    {
+      "id": 7,
+      "image": "",
+      "address": "",
+      "price": "",
+      "listing-agent": ""
+    },
+    {
+      "id": 8,
+      "image": "",
+      "address": "",
+      "price": "",
+      "listing-agent": ""
+    },
+    {
+      "id": 9,
+      "image": "",
+      "address": "",
+      "price": "",
+      "listing-agent": ""
+    },
+    {
+      "id": 10,
+      "image": "",
+      "address": "",
+      "price": "",
+      "listing-agent": ""
+    },
+    {
+      "id": 11,
+      "image": "",
+      "address": "",
+      "price": "",
+      "listing-agent": ""
+    },
+    {
+      "id": 12,
+      "image": "",
+      "address": "",
+      "price": "",
+      "listing-agent": ""
+    },
+    {
+      "id": 13,
+      "image": "",
+      "address": "",
+      "price": "",
+      "listing-agent": ""
+    },
+    {
+      "id": 14,
+      "image": "",
+      "address": "",
+      "price": "",
+      "listing-agent": ""
+    },
+    {
+      "id": 15,
+      "image": "",
+      "address": "",
+      "price": "",
+      "listing-agent": ""
+    },
+    {
+      "id": 16,
+      "image": "",
+      "address": "",
+      "price": "",
+      "listing-agent": ""
+    },
+    {
+      "id": 17,
+      "image": "",
+      "address": "",
+      "price": "",
+      "listing-agent": ""
+    },
+    {
+      "id": 18,
+      "image": "",
+      "address": "",
+      "price": "",
+      "listing-agent": ""
+    },
+    {
+      "id": 19,
+      "image": "",
+      "address": "",
+      "price": "",
+      "listing-agent": ""
+    },
+    {
+      "id": 20,
+      "image": "",
+      "address": "",
+      "price": "",
+      "listing-agent": ""
+    }
+  ]
+}
