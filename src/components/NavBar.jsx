@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+// import DarkModeToggle from "./DarkModeToggle";
 
 function NavBar() {
   return (
@@ -20,11 +21,10 @@ function NavBar() {
           </a>
         </div>
         <div className="right_container">
-          <div>
-            <Link to="/contact">
-              <button className="btn">Contact</button>
-            </Link>
-          </div>
+          {/* <DarkModeToggle /> */}
+          <Link to="/contact">
+            <button className="nav-link btn">Contact</button>
+          </Link>
         </div>
       </header>
     </>

@@ -47,9 +47,22 @@ function SellForm() {
       body: JSON.stringify(newObj),
     })
       .then((r) => r.json())
-      .then((data) => console.log(data));
+      .then((data) => {
+        console.log(data);
+        setFormData({
+          image: "",
+          address: "",
+          price: "",
+          listingAgent: "",
+        });
+        setAddressData({
+          line1: "",
+          city: "",
+          state: "",
+          zip: "",
+        });
+      });
   };
-
   return (
     <form className="sell_form" onSubmit={handleSubmit}>
       <div>
@@ -136,9 +149,7 @@ function SellForm() {
           />
         </label>
       </div>
-      <button className="btn" type="submit">
-        Submit
-      </button>
+      <button className="btn">Submit</button>
     </form>
   );
 }

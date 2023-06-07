@@ -10,9 +10,18 @@ html, body {
   padding: 0;
 }
 
+.dark {
+  background-color: #222725;
+  color: #F6F3F1;
+}
+.light {
+  background-color: #F6F3F1;
+  color: #222725;
+}
+
+
 :root {
   font-family: 'Ibarra Real Nova', serif;
-  background-color: #F6F3F1;
 }
 .marquee_container {
   background: #222725;
@@ -35,13 +44,22 @@ html, body {
   color: #222725;
   text-decoration: none;
   padding-right: 40px
-  
+}
+
+.left_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .right_container {
-display: flex;
-align-items: center;
-justify-content: space-between;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.darktoggle {
+  margin-right: 10px
 }
 
 .logo {
@@ -58,6 +76,7 @@ justify-content: space-between;
   background-color: transparent;
   padding: 4px 15px;
 }
+
 h1 {
   font-size: 100px;
   margin-bottom: 0px;
@@ -160,6 +179,12 @@ height: auto;
   vertical-align: auto;
 }
 
+.popup {
+  display: grid;
+  margin-left: auto;
+  vertical-align: auto;
+}
+
 .contact-home__form-group {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -203,6 +228,11 @@ height: auto;
   display: flex;
   padding: 1rem;
   width: 25%;
+  transition: all .2s ease-in-out;
+}
+
+.cards__item:hover {
+  transform: scale(1.02);
 }
 
 .card {
@@ -230,13 +260,15 @@ height: auto;
   filter: contrast(100%);
   overflow: hidden;
   position: relative;
-  transition: filter 0.5s cubic-bezier(.43,.41,.22,.91);
+  transition: filter .5s cubic-bezier(.43,.41,.22,.91);
+  transition: all .5s ease-in-out;
   width: 480px;
   height: 400px;
 }
 
 .card__image:hover{
   filter: contrast(60%);
+  
 }
 
 

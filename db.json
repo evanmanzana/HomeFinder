@@ -221,7 +221,21 @@
       "bedrooms": "3"
     },
     {
-      "id": 3,
+      "image": "https://photos.zillowstatic.com/fp/68dc79702fa71bce495232310c7b6c05-cc_ft_768.webp",
+      "apartmentName": "House For Rent",
+      "address": {
+        "line1": "4595 Zenobia Street",
+        "city": "Denver",
+        "state": "CO",
+        "zip": "80212",
+        "apartmentName": "H"
+      },
+      "price": "1,750",
+      "bedrooms": "2",
+      "id": 3
+    },
+    {
+      "id": 4,
       "image": "https://photos.zillowstatic.com/fp/8f6172f42a0a03198826f503327f504b-cc_ft_384.webp",
       "apartmentName": "Solana Olde Town Station",
       "address": {
@@ -235,19 +249,6 @@
     },
     {
       "id": 5,
-      "image": "",
-      "apartmentName": "",
-      "address": {
-        "line1": "",
-        "city": "",
-        "state": "",
-        "zip": ""
-      },
-      "price": "",
-      "bedrooms": ""
-    },
-    {
-      "id": 4,
       "image": "https://photos.zillowstatic.com/fp/ebb54792e9888be9a0478eb1b1c26590-cc_ft_768.webp",
       "apartmentName": "House for Rent",
       "address": {
@@ -261,146 +262,145 @@
     },
     {
       "id": 6,
-      "image": "",
-      "apartmentName": "",
+      "image": "https://photos.zillowstatic.com/fp/f1966109f082950aea4d5b0dc61b9857-cc_ft_768.webp",
+      "apartmentName": "Village on Cypress",
       "address": {
-        "line1": "",
-        "city": "",
-        "state": "",
-        "zip": ""
+        "line1": "8960 Cypress Drive",
+        "city": "Thornton",
+        "state": "CO",
+        "zip": "80229"
       },
-      "price": "",
-      "bedrooms": ""
+      "price": "1,663+",
+      "bedrooms": "1-2"
     },
     {
-      "id": 7,
-      "image": "",
-      "apartmentName": "",
+      "image": "https://photos.zillowstatic.com/fp/df66d9fef456c153078edbecb02ff700-cc_ft_768.webp",
+      "apartmentName": "House for Rent",
       "address": {
-        "line1": "",
-        "city": "",
-        "state": "",
-        "zip": ""
+        "line1": "3718 Jay Street",
+        "city": "Wheat Ridge",
+        "state": "CO",
+        "zip": "80033"
       },
-      "price": "",
-      "bedrooms": ""
+      "price": "1,300",
+      "bedrooms": "1",
+      "id": 7
     },
     {
-      "id": 8,
-      "image": "",
-      "apartmentName": "",
+      "image": "https://photos.zillowstatic.com/fp/b343707e0fff11af9c09d960dc6a407f-cc_ft_768.webp",
+      "apartmentName": "House for Rent",
       "address": {
-        "line1": "",
-        "city": "",
-        "state": "",
-        "zip": ""
-      },
-      "price": "",
-      "bedrooms": ""
-    },
-    {
-      "image": "https://photos.zillowstatic.com/fp/68dc79702fa71bce495232310c7b6c05-cc_ft_768.webp",
-      "apartmentName": "House For Rent",
-      "address": {
-        "line1": "4595 Zenobia Street",
+        "line1": "4824 W Moncrieff Place",
         "city": "Denver",
         "state": "CO",
-        "zip": "80212",
-        "apartmentName": "H"
+        "zip": "80212"
       },
-      "price": "1,750",
-      "bedrooms": "2",
+      "price": "3,300",
+      "bedrooms": "3",
+      "id": 8
+    },
+    {
+      "image": "https://maps.googleapis.com/maps/api/streetview?location=15822+W+70th+Dr%2C+Arvada%2C+CO+80007&size=768x576&key=AIzaSyARFMLB1na-BBWf7_R3-5YOQQaHqEJf6RQ&source=outdoor&&signature=rMd2dIbOQA2BD4dKPgTvfWv6E2k=",
+      "apartmentName": "House for Rent",
+      "address": {
+        "line1": "15822 W 70th Drive",
+        "city": "Arvada",
+        "state": "CO",
+        "zip": "80007"
+      },
+      "price": "3,900",
+      "bedrooms": "4",
       "id": 9
     },
     {
-      "image": "",
-      "apartmentName": "",
+      "image": "https://photos.zillowstatic.com/fp/2959de0251a5c636e3b8db22ff870a8c-cc_ft_768.webp",
+      "apartmentName": "Savanna Nine Mile",
       "address": {
-        "line1": "",
-        "city": "",
-        "state": "",
-        "zip": ""
+        "line1": "2870 Arapahoe Road",
+        "city": "Lafayette",
+        "state": "CO",
+        "zip": "80026"
       },
-      "price": "",
-      "bedrooms": "",
+      "price": "1,740+",
+      "bedrooms": "1-2",
       "id": 10
     },
     {
-      "image": "",
-      "apartmentName": "",
+      "image": "https://photos.zillowstatic.com/fp/518c51f0a22b08150fd944dce4404c16-cc_ft_768.webp",
+      "apartmentName": "Mountain Terrace",
       "address": {
-        "line1": "",
-        "city": "",
-        "state": "",
-        "zip": ""
+        "line1": "3650 W 84th Avenue",
+        "city": "Westminster",
+        "state": "CO",
+        "zip": "80031"
       },
-      "price": "",
-      "bedrooms": "",
+      "price": "959",
+      "bedrooms": "1",
       "id": 11
     },
     {
-      "image": "",
-      "apartmentName": "",
+      "image": "https://photos.zillowstatic.com/fp/c63bf0e2d2036794c35d85ab50f56c0e-cc_ft_768.webp",
+      "apartmentName": "House For Rent",
       "address": {
-        "line1": "",
-        "city": "",
-        "state": "",
-        "zip": ""
+        "line1": "2312C W Caley Avenue",
+        "city": "Littleton",
+        "state": "CO",
+        "zip": "80120"
       },
-      "price": "",
-      "bedrooms": "",
+      "price": "1,400",
+      "bedrooms": "1",
       "id": 12
     },
     {
-      "image": "",
-      "apartmentName": "",
+      "image": "https://photos.zillowstatic.com/fp/b063dd5cc9e86bda4c502f001f51b4bd-cc_ft_768.webp",
+      "apartmentName": "Broadstone Wren",
       "address": {
-        "line1": "",
-        "city": "",
-        "state": "",
-        "zip": ""
+        "line1": "8521 Kings Point Way",
+        "city": "Parker",
+        "state": "CO",
+        "zip": "80138"
       },
-      "price": "",
-      "bedrooms": "",
+      "price": "1,875+",
+      "bedrooms": "Studio-2",
       "id": 13
     },
     {
-      "image": "",
-      "apartmentName": "",
+      "image": "https://photos.zillowstatic.com/fp/8cba520894b3d2ffe99a80b8a3c1f2b4-uncropped_scaled_within_1536_1152.webp",
+      "apartmentName": "Parq on Speer",
       "address": {
-        "line1": "",
-        "city": "",
-        "state": "",
-        "zip": ""
+        "line1": "810 N Speer Boulevard",
+        "city": "Denver",
+        "state": "CO",
+        "zip": "80204"
       },
-      "price": "",
-      "bedrooms": "",
+      "price": "11,313",
+      "bedrooms": "3",
       "id": 14
     },
     {
-      "image": "",
-      "apartmentName": "",
+      "image": "https://photos.zillowstatic.com/fp/a81ba86dd1cad80e3f15703a98563859-cc_ft_768.webp",
+      "apartmentName": "House For Rent",
       "address": {
-        "line1": "",
-        "city": "",
-        "state": "",
-        "zip": ""
+        "line1": "4775 14th Street",
+        "city": "Boulder",
+        "state": "CO",
+        "zip": "80304"
       },
-      "price": "",
-      "bedrooms": "",
+      "price": "7,015",
+      "bedrooms": "5",
       "id": 15
     },
     {
-      "image": "",
-      "apartmentName": "",
+      "image": "https://photos.zillowstatic.com/fp/fbb68ffe95dc44e207e88e6e2fc519ce-uncropped_scaled_within_1536_1152.webp",
+      "apartmentName": "House For Rent",
       "address": {
-        "line1": "",
-        "city": "",
-        "state": "",
-        "zip": ""
+        "line1": "562 N Steele Street",
+        "city": "Denver",
+        "state": "CO",
+        "zip": "80206"
       },
-      "price": "",
-      "bedrooms": "",
+      "price": "35,000",
+      "bedrooms": "5",
       "id": 16
     }
   ]

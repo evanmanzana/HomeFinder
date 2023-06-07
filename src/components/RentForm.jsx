@@ -1,6 +1,6 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 
-function RentForm() {
+function RentForm({ rentListings, setRentListings }) {
   const [formData, setFormData] = useState({
     image: "",
     apartmentName: "",
@@ -15,9 +15,10 @@ function RentForm() {
     zip: "",
   });
 
+  const [showPopup, setShowPopup] = useState(false);
+
   const handleChange = (e) => {
     const { name, value } = e.target;
-    console.log(name);
     setFormData((prevFormData) => ({
       ...prevFormData,
       [name]: value,
@@ -26,7 +27,6 @@ function RentForm() {
 
   const handleAddChange = (e) => {
     const { name, value } = e.target;
-    console.log(name, value);
     setAddressData((prevFormData) => ({
       ...prevFormData,
       [name]: value,
@@ -38,8 +38,6 @@ function RentForm() {
     let newObj = { ...formData };
     newObj.address = addressData;
 
-    // Add code here to handle the submission of the form data
-    console.log(newObj);
     fetch("http://localhost:8003/rentListings", {
       method: "POST",
       headers: {
@@ -48,7 +46,23 @@ function RentForm() {
       body: JSON.stringify(newObj),
     })
       .then((r) => r.json())
-      .then((data) => console.log(data));
+      .then((data) => {
+        console.log(data);
+        setFormData({
+          image: "",
+          apartmentName: "",
+          address: "",
+          price: "",
+          bedrooms: "",
+        });
+        setAddressData({
+          line1: "",
+          city: "",
+          state: "",
+          zip: "",
+        });
+        setShowPopup(true);
+      });
   };
 
   const [isHouse, setIsHouse] = useState(false);
@@ -56,7 +70,6 @@ function RentForm() {
   const handleToggle = () => {
     setIsHouse(!isHouse);
     if (!isHouse) {
-      console.log(formData);
       setFormData((prevFormData) => ({
         ...prevFormData,
         ["apartmentName"]: "House for Rent",
@@ -68,6 +81,16 @@ function RentForm() {
       }));
     }
   };
+
+  useEffect(() => {
+    if (showPopup) {
+      const timeout = setTimeout(() => {
+        setShowPopup(false);
+      }, 3000);
+
+      return () => clearTimeout(timeout);
+    }
+  }, [showPopup]);
 
   return (
     <form className="rent_form" onSubmit={handleSubmit}>

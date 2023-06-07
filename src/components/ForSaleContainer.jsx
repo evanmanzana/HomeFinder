@@ -1,5 +1,5 @@
 import React from "react";
-import ForSaleHouses from "../components/ForSaleHouses";
+import ForSaleHouses from "./ForSaleHouses";
 
 function ForSaleContainer({ saleListings }) {
   const housesForSale = saleListings.map((saleListing) => {
