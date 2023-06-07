@@ -9,20 +9,39 @@ function ContactForm() {
     <div className="contact_container">
       <h2>Send us a message!</h2>
       <form onSubmit={handleSubmit} className="contact_form">
-        <label htmlFor="email" placeholder="Your Name">
-          Name
-        </label>
-        <input id="name" name="name" placeholder="Your Name" />
-        <label htmlFor="email">Email Address</label>
-        <input id="email" type="email" name="email" placeholder="Your Email" />
-        <ValidationError prefix="Email" field="email" errors={state.errors} />
-        <label>Message</label>
-        <textarea id="message" name="message" />
-        <ValidationError
-          prefix="Message"
-          field="message"
-          errors={state.errors}
-        />
+        <div className="contact-home__form-group">
+          <div className="contact-home__form-item">
+            <label htmlFor="email" placeholder="Your Name">
+              Name
+            </label>
+            <input id="name" name="name" placeholder="Your Name" />
+          </div>
+          <div className="contact-home__form-item">
+            <label htmlFor="email">Email Address</label>
+            <input
+              id="email"
+              type="email"
+              name="email"
+              placeholder="Your Email"
+            />
+            <ValidationError
+              prefix="Email"
+              field="email"
+              errors={state.errors}
+            />
+          </div>
+        </div>
+        <div className="contact-home__form-item">
+          <label>Message</label>
+          <input id="message" name="message" type="text" />
+          <ValidationError
+            prefix="Message"
+            field="message"
+            type="text"
+            errors={state.errors}
+          />
+        </div>
+
         <button className="btn" type="submit" disabled={state.submitting}>
           Submit
         </button>

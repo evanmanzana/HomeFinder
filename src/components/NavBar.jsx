@@ -2,12 +2,6 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
 function NavBar() {
-  //   const [isOpen, setIsOpen] = useState(true);
-  //   function handleClick() {
-  //     setIsOpen((isOpen) => !isOpen);
-  //     console.log(handleClick);
-  //   }
-
   return (
     <>
       <header class="nav_container">

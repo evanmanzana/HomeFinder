@@ -35,21 +35,25 @@ html, body {
   color: #222725;
   text-decoration: none;
   padding-right: 40px
+  
+}
+
+.right_container {
+display: flex;
+align-items: center;
+justify-content: space-between;
 }
 
 .logo {
   height: auto;
   width: 30px;
-
-
 }
-
 
 .btn {
   font-size: 14px;
-  color:#1B1B1B;
+  color:#222725;
   line-height: 17.5px;
-  border: 1px solid #1B1B1B;
+  border: 1px solid #222725;
   border-radius: 50px;
   background-color: transparent;
   padding: 4px 15px;
@@ -57,6 +61,7 @@ html, body {
 h1 {
   font-size: 100px;
   margin-bottom: 0px;
+  margin-top: 40px;
 }
 h2 {
   font-size: 40px;
@@ -113,9 +118,16 @@ flex: none;
 order: 0;
 flex-grow: 0;
 }
-.contact_popup {
-  display: none;
-  /* Add styling for the contact information pop-up */
+.about_container {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #222725;
+}
+.about_container-text {
+  padding: 10px;
+  line-height: 100%;
 }
 .error-page {
   display: grid;
@@ -138,11 +150,221 @@ height: auto;
 }
 
 .contact_container {
-  display: flex;
-  padding: 20px 60px
+  display: grid;
+  padding: 20px 60px; 
 }
 
 .contact_form {
+  display: grid;
   margin-left: auto;
-  vertical-align:auto;
+  vertical-align: auto;
 }
+
+.contact-home__form-group {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.contact-home__form-item {
+  margin-bottom: 18px;
+}
+
+.contact-home__form-item label {
+  display: block;
+  font-size: 16px;
+  line-height: 1.49;
+  letter-spacing: .01em;
+}
+
+.contact-home__form-item input {
+  width: 100%;
+  padding: 8px 0 15px;
+  display: block;
+  font-size: 29px;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  color: var(--red);
+  background: none;
+  border: 0;
+  border-bottom: 1px solid rgba(224, 224, 224, 1);
+}
+
+/* Break */
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.cards__item {
+  display: flex;
+  padding: 1rem;
+  width: 25%;
+}
+
+.card {
+  background-color: white;
+  border-radius: 0.25rem;
+  box-shadow: 0 20px 40px -14px rgba(0,0,0,0.25);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.card__content {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.card__image {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+  filter: contrast(100%);
+  overflow: hidden;
+  position: relative;
+  transition: filter 0.5s cubic-bezier(.43,.41,.22,.91);
+  width: 480px;
+  height: 400px;
+}
+
+.card__image:hover{
+  filter: contrast(60%);
+}
+
+
+.card__title {
+  color: #696969;
+  font-size: 1.25rem;
+  font-weight: 300;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.card__title__name  {
+  color: #222725;
+  font-size: 1.25rem;
+  font-weight: 300;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.card__text, .card__detail p {
+  flex: 1 1 auto;
+  font-size: 1.0rem;
+  line-height: 1.5;
+  margin-bottom: .1rem;
+  color: #222725
+}
+
+.card__detail {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.card__detail p {
+  text-align: center;
+}
+
+.card__detail button{
+  text-align: center;
+}
+
+@media(max-width: 700px){
+  .cards__item{
+    width: 50%;
+  }
+}
+.search input {
+  font-size: 14px;
+  color:#222725;
+  line-height: 17.5px;
+  background-color: transparent;
+  padding: 4px 15px;
+  text-align: center;
+  position: relative;
+  display: block; 
+  margin: auto; 
+  border-radius: 50px;
+  border: 2px;
+  font-size: 20px;
+  border: 1px solid #222725;
+}
+.search {
+  padding: 0 20 0 0;
+}
+
+.filtered-list select  {
+  
+  border-radius: 50px;
+  border: 2px;
+  font-size: 14px;
+  border: 1px solid #222725;
+  background-color: transparent;
+  
+}
+.filtered-list {
+  padding: 16px;
+  display: flex;
+}
+
+.toggle { 
+padding-left: 48px
+}
+
+.looktosell {
+  padding-left: 32px;
+}
+
+.sell_form {
+  display: grid;
+  padding: 20px 60px;
+  margin-left: auto;
+}
+.sell_form input {
+  width: 100%;
+  padding: 10px 0 15px;
+  display: block;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  color: var(--red);
+  background: none;
+  border: 0;
+  border-bottom: 1px solid rgba(224, 224, 224, 1);
+ }
+
+.rent_form {
+  display: grid;
+  padding: 20px 60px;
+  margin-left: auto;
+}
+.form-input input {
+  width: 100%;
+  padding: 10px 0 15px;
+  display: block;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  color: var(--red);
+  background: none;
+  border: 0;
+  border-bottom: 1px solid rgba(224, 224, 224, 1);
+ }
+ .rent_form button {
+  margin-top: 10px;
+ }
+
+ .checkbox {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 8px 0px;
+ }
+
+ 
