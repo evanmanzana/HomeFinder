@@ -63,6 +63,7 @@ function App() {
             <Buy
               saleListings={filteredListings}
               onSearchChange={onSearchChange}
+              setSaleListings={setSaleListings}
             />
           }
         />
@@ -73,6 +74,7 @@ function App() {
             <Rent
               rentListings={filteredRentListings}
               onSearchChange={onSearchChange}
+              setRentListings={setRentListings}
             />
           }
         />

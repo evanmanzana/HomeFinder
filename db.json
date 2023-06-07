@@ -234,19 +234,6 @@
       "bedrooms": "1-3"
     },
     {
-      "id": 4,
-      "image": "https://photos.zillowstatic.com/fp/ebb54792e9888be9a0478eb1b1c26590-cc_ft_768.webp",
-      "apartmentName": "House for Rent",
-      "address": {
-        "line1": "2725 W 38th Avenue",
-        "city": "Denver",
-        "state": "CO",
-        "zip": "80211"
-      },
-      "price": "3,700",
-      "bedrooms": "3"
-    },
-    {
       "id": 5,
       "image": "",
       "apartmentName": "",
@@ -258,6 +245,19 @@
       },
       "price": "",
       "bedrooms": ""
+    },
+    {
+      "id": 4,
+      "image": "https://photos.zillowstatic.com/fp/ebb54792e9888be9a0478eb1b1c26590-cc_ft_768.webp",
+      "apartmentName": "House for Rent",
+      "address": {
+        "line1": "2725 W 38th Avenue",
+        "city": "Denver",
+        "state": "CO",
+        "zip": "80211"
+      },
+      "price": "3,700",
+      "bedrooms": "3"
     },
     {
       "id": 6,
@@ -324,6 +324,84 @@
       "price": "",
       "bedrooms": "",
       "id": 10
+    },
+    {
+      "image": "",
+      "apartmentName": "",
+      "address": {
+        "line1": "",
+        "city": "",
+        "state": "",
+        "zip": ""
+      },
+      "price": "",
+      "bedrooms": "",
+      "id": 11
+    },
+    {
+      "image": "",
+      "apartmentName": "",
+      "address": {
+        "line1": "",
+        "city": "",
+        "state": "",
+        "zip": ""
+      },
+      "price": "",
+      "bedrooms": "",
+      "id": 12
+    },
+    {
+      "image": "",
+      "apartmentName": "",
+      "address": {
+        "line1": "",
+        "city": "",
+        "state": "",
+        "zip": ""
+      },
+      "price": "",
+      "bedrooms": "",
+      "id": 13
+    },
+    {
+      "image": "",
+      "apartmentName": "",
+      "address": {
+        "line1": "",
+        "city": "",
+        "state": "",
+        "zip": ""
+      },
+      "price": "",
+      "bedrooms": "",
+      "id": 14
+    },
+    {
+      "image": "",
+      "apartmentName": "",
+      "address": {
+        "line1": "",
+        "city": "",
+        "state": "",
+        "zip": ""
+      },
+      "price": "",
+      "bedrooms": "",
+      "id": 15
+    },
+    {
+      "image": "",
+      "apartmentName": "",
+      "address": {
+        "line1": "",
+        "city": "",
+        "state": "",
+        "zip": ""
+      },
+      "price": "",
+      "bedrooms": "",
+      "id": 16
     }
   ]
 }

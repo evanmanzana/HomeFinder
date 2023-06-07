@@ -1,13 +1,14 @@
 import React, { useState } from "react";
 
-const FilteredList = ({ setSelectedFilter }) => {
+function FilteredList({ selectedFilter, setSelectedFilter, filteredData }) {
+  function handleChange(event) {
+    setSelectedFilter(event.target.value);
+    filteredData();
+  }
   return (
     <div className="filtered-list">
-      <select
-        value={selectedFilter}
-        onChange={(event) => setSelectedFilter(event.target.value)}
-      >
-        <option value="">Filter by:</option>
+      <select value={selectedFilter} onChange={handleChange}>
+        <option value="default">Filter by:</option>
         <option value="priceHighLow">Price: High-Low</option>
         <option value="priceLowHigh">Price: Low-High</option>
       </select>
@@ -15,6 +16,6 @@ const FilteredList = ({ setSelectedFilter }) => {
       {/* Render your filtered data based on the selected filter option */}
     </div>
   );
-};
+}
 
 export default FilteredList;
