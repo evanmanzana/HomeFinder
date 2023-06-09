@@ -23,7 +23,7 @@ function NavBar() {
         <div className="right_container">
           {/* <DarkModeToggle /> */}
           <Link to="/contact">
-            <button className="nav-link btn">Contact</button>
+            <button className="nav-link-b btn">Contact</button>
           </Link>
         </div>
       </header>
