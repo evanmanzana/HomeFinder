@@ -29,6 +29,16 @@ html, body {
 }
 
 .nav-link {
+  position: relative;
+  font-size: 24px;
+  line-height: 1.2;
+  color: #222725;
+  text-decoration: none;
+  padding-right: 40px;
+  transition: all .2s ease-in-out;
+}
+
+.nav-link-a {
   font-size: 20px;
   line-height: 1.2;
   color: #222725;
@@ -37,10 +47,52 @@ html, body {
   transition: all .2s ease-in-out;
 }
 
-.nav-link:hover {
-  transform: scaleX(1);
+body:has(.nav-link-rent:hover) .nav-link-background-rent {
+  width: 60%
+}
+body:has(.nav-link-buy:hover) .nav-link-background-buy {
+  width: 55%
+}
+body:has(.nav-link-sell:hover) .nav-link-background-sell {
+  width: 55%
 }
 
+.nav-link-background-rent {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 2px;
+  width: 0;
+  border-bottom: 2px solid #222725;
+  border-radius: 90%;
+  background-color: transparent; 
+  transition: all .4s;
+}
+.nav-link-background-buy {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 2px;
+  width: 0;
+  border-bottom: 2px solid #222725;
+  border-radius: 80%;
+  background-color: transparent; 
+  transition: all .4s;
+}
+.nav-link-background-sell {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 2px;
+  width: 0;
+  border-bottom: 2px solid #222725;
+  border-radius: 80%;
+  background-color: transparent; 
+  transition: all .4s;
+}
 
 .left_container {
   display: flex;

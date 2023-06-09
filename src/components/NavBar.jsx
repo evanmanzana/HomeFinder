@@ -7,23 +7,26 @@ function NavBar() {
     <>
       <header class="nav_container">
         <div class="left_container">
-          <a href="/" class="nav-link">
-            <img className="logo" src="./src/assets/logo.png" />
+          <a href="/" class="nav-link-a">
+            <img class="logo" src="./src/assets/logo.png" />
           </a>
-          <a href="/rent" class="nav-link">
+          <a href="/rent" class="nav-link nav-link-rent">
             Rent
+            <span class="nav-link-background-rent"></span>
           </a>
-          <a href="/buy" class="nav-link">
+          <a href="/buy" class="nav-link nav-link-buy">
             Buy
+            <span class="nav-link-background-buy"></span>
           </a>
-          <a href="/sell" class="nav-link">
+          <a href="/sell" class="nav-link nav-link-sell">
             Sell
+            <span class="nav-link-background-sell"></span>
           </a>
         </div>
-        <div className="right_container">
-          {/* <DarkModeToggle /> */}
+        <div class="right_container">
+          {/* <!-- DarkModeToggle --> */}
           <Link to="/contact">
-            <button className="nav-link-b btn">Contact</button>
+            <button class="nav-link-b btn">Contact</button>
           </Link>
         </div>
       </header>
